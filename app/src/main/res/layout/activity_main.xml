@@ -25,11 +25,12 @@
                 android:id="@+id/pantallica"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="3"
-                android:text="0"
-                android:textSize="50sp"
                 android:layout_margin="5dp"
-                android:background="#DADADA"></TextView>
+                android:layout_weight="3"
+                android:background="#DADADA"
+                android:text="0"
+                android:textAlignment="textEnd"
+                android:textSize="50sp"></TextView>
 
             <Button
                 android:id="@+id/deletear"
@@ -38,7 +39,8 @@
                 android:layout_weight="1"
                 android:text="DEL"
                 android:background="@drawable/botones_secundarios"
-                app:backgroundTint="@null"></Button>
+                app:backgroundTint="@null"
+                android:textSize="20sp"></Button>
 
         </LinearLayout>
 
@@ -62,9 +64,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="AC"
                     android:background="@drawable/botones_secundarios"
-                    app:backgroundTint="@null"/>
+                    android:text="AC"
+                    android:textSize="30sp"
+                    app:backgroundTint="@null" />
 
                 <Button
                     android:id="@+id/buttonmasmenos"
@@ -72,6 +75,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="+/-"
+                    android:textSize="30sp"
                     android:background="@drawable/botones_secundarios"
                     app:backgroundTint="@null"/>
 
@@ -81,6 +85,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="%"
+                    android:textSize="30sp"
                     android:background="@drawable/botones_secundarios"
                     app:backgroundTint="@null"/>
 
@@ -90,6 +95,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="/"
+                    android:textSize="30sp"
                     android:background="@drawable/botones_secundarios"
                     app:backgroundTint="@null"/>
 
@@ -106,6 +112,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="7"
+                    android:textSize="30sp"
                     android:background="@drawable/boton_principal"
                     app:backgroundTint="@null"/>
 
@@ -115,6 +122,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="8"
+                    android:textSize="30sp"
                     android:background="@drawable/boton_principal"
                     app:backgroundTint="@null"/>
 
@@ -124,6 +132,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="9"
+                    android:textSize="30sp"
                     android:background="@drawable/boton_principal"
                     app:backgroundTint="@null"/>
 
@@ -133,6 +142,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="x"
+                    android:textSize="30sp"
                     android:background="@drawable/botones_secundarios"
                     app:backgroundTint="@null"/>
             </LinearLayout>
@@ -148,6 +158,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="4"
+                    android:textSize="30sp"
                     android:background="@drawable/boton_principal"
                     app:backgroundTint="@null"/>
 
@@ -157,6 +168,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="5"
+                    android:textSize="30sp"
                     android:background="@drawable/boton_principal"
                     app:backgroundTint="@null"/>
 
@@ -166,6 +178,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="6"
+                    android:textSize="30sp"
                     android:background="@drawable/boton_principal"
                     app:backgroundTint="@null"/>
 
@@ -175,6 +188,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="-"
+                    android:textSize="30sp"
                     android:background="@drawable/botones_secundarios"
                     app:backgroundTint="@null"/>
             </LinearLayout>
@@ -190,6 +204,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="3"
+                    android:textSize="30sp"
                     android:background="@drawable/boton_principal"
                     app:backgroundTint="@null"/>
 
@@ -199,6 +214,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="2"
+                    android:textSize="30sp"
                     android:background="@drawable/boton_principal"
                     app:backgroundTint="@null"/>
 
@@ -208,6 +224,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="1"
+                    android:textSize="30sp"
                     android:background="@drawable/boton_principal"
                     app:backgroundTint="@null"/>
 
@@ -217,6 +234,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="+"
+                    android:textSize="30sp"
                     android:background="@drawable/botones_secundarios"
                     app:backgroundTint="@null"/>
             </LinearLayout>
@@ -233,6 +251,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text=","
+                    android:textSize="30sp"
                     android:background="@drawable/botones_secundarios"
                     app:backgroundTint="@null"/>
 
@@ -242,6 +261,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:text="0"
+                    android:textSize="30sp"
                     android:background="@drawable/boton_principal"
                     app:backgroundTint="@null"/>
 
@@ -251,6 +271,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="="
+                    android:textSize="30sp"
                     android:background="@drawable/botones_secundarios"
                     app:backgroundTint="@null"/>
             </LinearLayout>
